@@ -5,7 +5,7 @@ import os
 from incident_fix_mcp_server import mcp
 
 
-HOST = os.getenv("INCIDENT_FIX_HOST", "127.0.0.1")
+HOST = os.getenv("INCIDENT_FIX_HOST", "0.0.0.0")
 PORT = int(os.getenv("INCIDENT_FIX_PORT", "8000"))
 PATH = os.getenv("INCIDENT_FIX_PATH", "/mcp")
 
